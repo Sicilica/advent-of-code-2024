@@ -1,6 +1,7 @@
 use std::{collections::HashMap, fs};
 
-// Memo: run with `cargo run day01`
+// Memo: run with `cargo run -p day01`
+// Memo: made with `cargo new day01`
 fn main() {
     let contents = fs::read_to_string("./day01/input.txt").expect("read file");
 
